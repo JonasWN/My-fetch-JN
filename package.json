@@ -1,16 +1,25 @@
 {
-  "name": "umd-test",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@jonaswn/umd-test",
+  "version": "0.0.0",
+  "description": "I umd.js filen skal der tilføjes endnu et fallback til de 4 HTTP metoder, vi allerede har skrevet: myFetch.post(), myFetch.get(), myFetch.put() og myFetch.del().",
   "main": "test.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "jonaswn",
+  "license": "MIT",
   "dependencies": {
     "jquery": "^3.4.1",
     "node-fetch": "^2.6.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rts-cmk/my-fetch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rts-cmk/my-fetch/issues"
+  },
+  "homepage": "https://github.com/rts-cmk/my-fetch#readme"
 }
