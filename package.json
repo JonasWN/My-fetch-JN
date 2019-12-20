@@ -16,10 +16,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rts-cmk/my-fetch.git"
+    "url": "git+https://github.com/JonasWN/My-fetch-JN.git"
   },
   "bugs": {
-    "url": "https://github.com/rts-cmk/my-fetch/issues"
+    "url": "https://github.com/JonasWN/My-fetch-JN/issues"
   },
   "homepage": "https://github.com/rts-cmk/my-fetch#readme"
 }
