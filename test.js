@@ -7,4 +7,4 @@ myFetch.init({
     key: "1234"
 });
 
-myFetch.post("1").then(result => console.log(result));
+myFetch.get("1").then(result => console.log(result));
