@@ -1,4 +1,4 @@
-# myFetch
+<!-- # myFetch
 
 ## Opgave:
 
@@ -36,4 +36,6 @@ ellers {
 
 Hvordan laver man requests til et web API fra et Node.js script?
 
-Skal dette Node.js-baserede værktøj nævnes øverst i vores UMD-factory som en dependency?
+Skal dette Node.js-baserede værktøj nævnes øverst i vores UMD-factory som en dependency? -->
+
+## To Be Added...
