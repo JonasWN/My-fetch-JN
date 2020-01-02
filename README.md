@@ -1,12 +1,12 @@
 # NodeJS fetch
 
-### H1 Fetch Wrapper that can Fetch Promises in varius ways like brower, XMLHttpRequest or NodeJS
+### Fetch Wrapper that can Fetch Promises in varius ways like brower, XMLHttpRequest or NodeJS
 
 ### Includes methods: Post, Get, Delete, Put
 
 ## Quick Start
 
-1.  npm install // To get the dependencies
+1.  `javascript npm install`
 
 2.  Locate the test.js folder
 
@@ -14,7 +14,7 @@
 
 ![Screenshot](readme_umd.png)
 
-4.  Run the script > node index in the terminal
+4.  Run the script `javascript node index`
 
 5.  Success!
 
