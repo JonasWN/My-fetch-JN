@@ -14,7 +14,7 @@
 
 ![Screenshot](readme_umd.png)
 
-4.  Run the script `node index`
+4.  Run the script `node test` in our case
 
 5.  Success!
 
