@@ -6,7 +6,7 @@
 
 ## Quick Start
 
-1.  `javascript npm install`
+1.  `npm install`
 
 2.  Locate the test.js folder
 
@@ -14,7 +14,7 @@
 
 ![Screenshot](readme_umd.png)
 
-4.  Run the script `javascript node index`
+4.  Run the script `node index`
 
 5.  Success!
 
