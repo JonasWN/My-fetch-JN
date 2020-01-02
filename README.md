@@ -42,6 +42,6 @@ jonaswn - NPM
 
 This is a school project but feel free to contact me for any questions!
 
-## Lisince
+## Licence
 
-Lisince used - MIT
+Licence used - MIT
