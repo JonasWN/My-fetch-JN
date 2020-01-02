@@ -22,6 +22,7 @@ Includes methods: Post, Get, Delete, Put
 
 ## Usage Examples
 
+```javascript
 myFetch.init({
 address: "https://pokeapi.co/api/v2/
 ",
@@ -29,6 +30,7 @@ key: "1234"
 });
 
 myFetch.get("pokemon/ditto/").then(result => console.log(result));
+```
 
 Result below
 
