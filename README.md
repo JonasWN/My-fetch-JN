@@ -1,41 +1,47 @@
-<!-- # myFetch
+## NodeJS fetch
 
-## Opgave:
+Fetch Wrapper
 
-I umd.js filen skal der tilføjes endnu et fallback til de 4 HTTP metoder, vi allerede har skrevet: myFetch.post(), myFetch.get(), myFetch.put() og myFetch.del().
+Fetch Promises in NodeJS console
 
-Vi har allerede skrevet fallback efter følgende princip:
+Includes methods: Post, Get, Delete, Put
 
-```pseudo
-Hvis fetch er en funktion {
-	udfør en request med fetch
-}
+## Quick Start
 
-ellers {
-	udfør en request med XMLHttpRequest
-}
-```
+1 - npm install // To get the dependencies
 
-Nu skal vi tilføje et fallback som gør, at vi også kan lave requests ved hjælp af Node.js. Det vil sige, vi skal kunne lave requests fra et script, som ikke bliver kørt i browseren. Fallbacket skal følge dette princip:
+2 - Locate the test.js folder
 
-```pseudo
-Hvis fetch er en funktion {
-	udfør en request med fetch
-}
+3 - In the Myfetch function shown below, Place the address you want to Fetch
 
-ellers, hvis XMLHttpRequest er en funktion {
-	udfør en request med XMLHttpRequest
-}
+![Screenshot](readme_umd.png)
 
-ellers {
-	udfør en request med et node.js-baseret request værktøj
-}
-```
+4 - Run the script > node index in the terminal
 
-## Tænk over følgende:
+5 - Success!
 
-Hvordan laver man requests til et web API fra et Node.js script?
+## Usage Examples
 
-Skal dette Node.js-baserede værktøj nævnes øverst i vores UMD-factory som en dependency? -->
+myFetch.init({
+address: "https://pokeapi.co/api/v2/
+",
+key: "1234"
+});
 
-## To Be Added...
+myFetch.get("pokemon/ditto/").then(result => console.log(result));
+
+Result below
+
+![Screenshot](pokeAPI.png)
+
+## Contact & Support
+
+JonasWN - Github
+
+jonaswn - NPM
+
+This is a school project but feel free to contact me for any questions!
+
+## Lisince
+
+Lisince used - MIT
