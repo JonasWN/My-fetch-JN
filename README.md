@@ -6,17 +6,17 @@
 
 ## Quick Start
 
-1. npm install // To get the dependencies
+1.  npm install // To get the dependencies
 
-2. - Locate the test.js folder
+2.  Locate the test.js folder
 
-3. - In the Myfetch function shown below, Place the address you want to Fetch
+3.  In the Myfetch function shown below, Place the address you want to Fetch
 
 ![Screenshot](readme_umd.png)
 
-4. - Run the script > node index in the terminal
+4.  Run the script > node index in the terminal
 
-5. - Success!
+5.  Success!
 
 ## Usage Examples
 
