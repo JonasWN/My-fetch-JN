@@ -1,6 +1,6 @@
 {
   "name": "@jonaswn/umd-test",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "I umd.js filen skal der tilføjes endnu et fallback til de 4 HTTP metoder, vi allerede har skrevet: myFetch.post(), myFetch.get(), myFetch.put() og myFetch.del().",
   "main": "test.js",
   "scripts": {
