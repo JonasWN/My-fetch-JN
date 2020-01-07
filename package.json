@@ -4,7 +4,8 @@
   "description": "I umd.js filen skal der tilføjes endnu et fallback til de 4 HTTP metoder, vi allerede har skrevet: myFetch.post(), myFetch.get(), myFetch.put() og myFetch.del().",
   "main": "test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "doc": "jsdoc -c jsdoc.conf.json"
   },
   "keywords": [],
   "author": "jonaswn",
@@ -13,7 +14,9 @@
     "jquery": "^3.4.1",
     "node-fetch": "^2.6.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jsdoc": "^3.6.3"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JonasWN/My-fetch-JN.git"
