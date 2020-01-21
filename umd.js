@@ -23,7 +23,8 @@
 			if (typeof fetch === "function") {
 				let response = await fetch(this.APIAddress + resource, {
 					headers: {
-						Authorization: this.APIKey
+						Authorization: this.APIKey,
+						'Access-Control-Allow-Origin': '*'
 					}
 				});
 
